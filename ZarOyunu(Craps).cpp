@@ -4,17 +4,19 @@
 
 //Kurallar:
 
-//İki zar atılır
+//Iki zar atilir
 
 //Zarlarin toplami hesaplanir
 
-//İlk atista 7 veya 11 gelirse oyuncu kazanır
+//Ilk atista 7 veya 11 gelirse oyuncu kazanÄ±r
 
-//İlk atista 2, 3 veya 12 gelirse oyuncu kaybeder
+//Ilk atista 2, 3 veya 12 gelirse oyuncu kaybeder
 
-//4,5,6,8,9,10 gelirse bu oyuncunun puani oluyor.
+//Ilk atislarda kurallar olmazsa gelen her sayi oyuncunun puani oluyor.
 
-// Oyuncu ilk atista kazanamazsa veya kaybetmezse puan durumuna bakılır 7 atista en yuksek puani alan kazanir.
+// Oyuncu ilk atista kazanamazsa veya kaybetmezse puan durumuna bakÄ±lÄ±r 7 atista  max puanin %50'den  yuksek puan alan kazanir.
+
+// Max. puan 84
 
 int main()
 {
@@ -25,8 +27,8 @@ int main()
 		int oyuncu=0;
 	for(i=0;i<7;i++)
 	{
-		int zar1=1+rand()%6;  //Rasgele zar1 icin sayi üretme 
-		int zar2=1+rand()%6;  ////Rasgele zar2 icin sayi üretme 
+		int zar1=1+rand()%6;  //Rasgele zar1 icin sayi Ã¼retme 
+		int zar2=1+rand()%6;  ////Rasgele zar2 icin sayi Ã¼retme 
 		int toplam=zar1+zar2;
 	
 	
